@@ -1,8 +1,6 @@
 # Blender Export Bezier
 
-For Blender: 2.80
-
-**DO NOT USE WITH OTHER VERSIONS OF BLENDER!**
+Tested with Blender: 2.80
 
 To install, create and put the .py files in the directory:
 

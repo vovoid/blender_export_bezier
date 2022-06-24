@@ -6,7 +6,7 @@ bl_info = {
     "version": (1, 0, 0),
     "blender": (2, 80, 0),
     "location": "File > Export",
-    "description": "Export beziers (VBZ) to VSXu",
+    "description": "Export beziers (VBZ) to VZX Artiste",
     "warning": "",
     "wiki_url": "",
     "support": 'OFFICIAL',
@@ -66,7 +66,7 @@ class ExportBezier(bpy.types.Operator, ExportHelper):
 
 
 def menu_func_export(self, context):
-    self.layout.operator(ExportBezier.bl_idname, text="VSXu Bezier [Selected] (.vbz)")
+    self.layout.operator(ExportBezier.bl_idname, text="VZX Bezier [Selected] (.vbz)")
 
 
 classes = (
