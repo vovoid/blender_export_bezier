@@ -1,4 +1,6 @@
-# Blender Export Bezier
+# Blender Export Bezier to VBZ File
+
+Note! Requires VZX Artiste 0.9.4
 
 Tested with Blender: 2.80
 
