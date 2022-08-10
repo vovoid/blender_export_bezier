@@ -25,9 +25,9 @@ def save(context, filepath):
                     file.write(",\n")
 
                 file.write("    {\n")
-                file.write("      \"handle_left\": [%.5f, %.5f, %.5f],\n" % (handle_left.x, handle_left.y, handle_left.z))
-                file.write("      \"vertex\": [%.5f, %.5f, %.5f],\n" % (co.x, co.y, co.z))
-                file.write("      \"handle_right\": [%.5f, %.5f, %.5f],\n" % (handle_right.x, handle_right.y, handle_right.z))
+                file.write("      \"handle_left\": [%.5f, %.5f, %.5f],\n" % (handle_left.x, handle_left.z, handle_left.y))
+                file.write("      \"vertex\": [%.5f, %.5f, %.5f],\n" % (co.x, co.z, co.y))
+                file.write("      \"handle_right\": [%.5f, %.5f, %.5f],\n" % (handle_right.x, handle_right.z, handle_right.y))
                 file.write("      \"tilt\": %.5f\n" % (bezier_point.tilt))
                 file.write("    }")
                 is_first = 0
